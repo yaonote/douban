@@ -1,0 +1,62 @@
+page{
+  background-color: #f4f4f4;
+  font-family: "Microsoft Yahei";
+  
+}
+.page-title{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  text-align: center;
+  padding: 20rpx;
+  border-bottom: 2rpx solid #FD915A;
+
+}
+.module-movie{
+    display: flex;
+    flex-direction: row;
+    flex:1;
+    border-bottom: 2rpx solid #eee;
+    padding: 30rpx;
+}
+.movies-img{
+  width: 300rpx;
+  height: 300rpx;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  
+}
+.movies-main{
+   display: flex;
+   flex: 2;
+   flex-direction: column;
+   /* border: 2rpx solid #999; */
+   width: 400rpx;
+   text-align: left;
+   padding-left: 80rpx; 
+   
+}
+.rating{
+   color: red;
+}
+.movie-title{
+  font-size: 36rpx;
+  /* margin-top: 10rpx;  */
+}
+.movie-casts{
+  margin-top: 10rpx; 
+  font-size: 30rpx;
+  color: #666;
+  
+ 
+}
+.movie-casts text{
+  margin-right:10rpx;
+}
+.movie-year{
+   font-size: 30rpx;
+   margin:  10rpx 0;
+   color: #999;
+   
+}
