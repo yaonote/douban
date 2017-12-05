@@ -1,1 +1,52 @@
 /**index.wxss**/
+page{
+    color: #666;
+}
+.module-wrap{
+    border-bottom:  18rpx solid rgb(12, 231, 23);
+}
+.module-title{
+    margin: 10rpx auto;
+    /* border: 2rpx solid red; */
+    height: 48rpx;
+    padding: 0 30rpx;
+    margin-top:  20rpx;
+
+}
+.newallmovies,.new-more{
+    float: left;
+    font-size: 32rpx;
+    font-weight: 600;
+}
+.new-more{
+    float: right;
+}
+
+
+
+.swiper-wrap{   
+    /* background-color: red;  */
+    height: 360rpx;
+    white-space:nowrap;
+    padding: 0 30rpx;
+   
+}
+.swiper-wrap .m-wrap{
+    display: inline-block;  
+    width: 190rpx;
+    height: 300rpx;
+    /* background-color: pink; */
+    margin: 6rpx;
+    /* border: 2rpx solid black; */
+    text-align: left;
+     
+}
+
+.m-wrap image{
+    width: 190rpx;
+    height: 240rpx;
+}
+.m-title{
+    font-size: 24rpx;
+    display: block;
+}

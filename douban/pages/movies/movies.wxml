@@ -1,1 +1,24 @@
-<view>电影详情页</view>
+<view class="page-title">
+    <text>{{movieTitle}}</text>
+</view>
+<!--页面的主体部分  -->
+<scroll-view scroll-y>
+     <view class="movie-top">
+             <image src='{{movie.images.small}}'></image> 
+             <view class="text-wrap">
+                <text class="movie-title fontSize">导演：{{movie.directors[0].name}}</text>
+                <view class="movie-casts fontSize">
+                   主演： <text wx:for="{{movie.casts}}">{{item.name}}</text>
+                </view>
+                <text class="movie-genres fontSize">类型：{{movie.genres}}</text>
+                <view class="movie-aka fontSize">
+                   又名：<text wx:for="{{movie.aka}}">{{item}}/</text>
+                </view>
+             </view>
+            
+     </view>
+     <view class="movie-bottom">
+             <view>剧情介绍：</view>
+             <text>{{movie.summary}}</text>
+     </view>
+</scroll-view>

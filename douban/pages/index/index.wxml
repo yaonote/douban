@@ -1,21 +1,55 @@
-<view class="page-title">
-    <text>{{loading}}</text>
+
+<view class='module-wrap'>
+  <view class='module-title'>
+     <text class='newallmovies'>正在热映</text><navigator class='new-more'>更多</navigator>
+  </view>
+  <scroll-view class="swiper-wrap" scroll-x>
+       <view class="m-wrap" wx:for="{{hotmovies}}">
+             <image src='{{item.images.small}}'></image>
+             <text class='m-title'>{{item.title}}</text>  
+              <text class='m-title'>{{item.rating.average}}</text>          
+       </view>                      
+  </scroll-view>
 </view>
-<!--页面的主体部分  -->
-<scroll-view scroll-y>
-     <navigator url="/pages/movies/movies" open-type='navigateTo'>
-     <view class="module-movie" wx:for="{{movies}}" >              
-              <image class='movies-img' src='{{item.images.small}}'></image>  
-              <view class="movies-main">
-                
-                <text class="movie-title">{{item.title}}</text>              
-                <view class="movie-casts">
-                  主演: <text wx:for="{{item.casts}}">{{item.name}}</text>
-               </view>
-               <text class="movie-year">{{item.year}}</text> 
-               <text class="rating">{{item.rating.average}}</text>           
-      </view>
-   </view>     
-     </navigator>
-      
-</scroll-view>
+
+
+<view class='module-wrap'>
+  <view class='module-title'>
+     <text class='newallmovies'>即将上映</text><navigator class='new-more'>更多</navigator>
+  </view>
+  <scroll-view class="swiper-wrap" scroll-x>
+       <view class="m-wrap" wx:for="{{tomorrowMoives}}">
+             <image src='{{item.images.small}}'></image>
+             <text class='m-title'>{{item.title}}</text>  
+              <text class='m-title'>{{item.rating.average}}</text>          
+       </view>                      
+  </scroll-view>
+</view>
+
+
+<view class='module-wrap'>
+  <view class='module-title'>
+     <text class='newallmovies'>口碑榜</text><navigator class='new-more'>更多</navigator>
+  </view>
+  <scroll-view class="swiper-wrap" scroll-x>
+       <view class="m-wrap" wx:for="{{koubeiMoives}}">
+             <image src='{{item.images.small}}'></image>
+             <text class='m-title'>{{item.title}}</text>  
+              <text class='m-title'>{{item.rating.average}}</text>          
+       </view>                      
+  </scroll-view>
+</view>
+
+
+<view class='module-wrap'>
+  <view class='module-title'>
+     <text class='newallmovies'>北美票房榜</text><navigator class='new-more'>更多</navigator>
+  </view>
+  <scroll-view class="swiper-wrap" scroll-x>
+       <view class="m-wrap" wx:for="{{beimeiMoives}}">
+             <image src='{{item.images.small}}'></image>
+             <text class='m-title'>{{item.title}}</text>  
+              <text class='m-title'>{{item.rating.average}}</text>          
+       </view>                      
+  </scroll-view>
+</view>
