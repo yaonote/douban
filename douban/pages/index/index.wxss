@@ -3,7 +3,7 @@ page{
     color: #666;
 }
 .module-wrap{
-    border-bottom:  18rpx solid rgb(12, 231, 23);
+    border-bottom:  18rpx solid #eee;
 }
 .module-title{
     margin: 10rpx auto;
@@ -36,7 +36,7 @@ page{
     width: 190rpx;
     height: 300rpx;
     /* background-color: pink; */
-    margin: 6rpx;
+    margin: 10rpx;
     /* border: 2rpx solid black; */
     text-align: left;
      

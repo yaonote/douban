@@ -29,7 +29,7 @@
 
 <view class='module-wrap'>
   <view class='module-title'>
-     <text class='newallmovies'>口碑榜</text><navigator class='new-more'>更多</navigator>
+     <text class='newallmovies'>TOP250</text><navigator class='new-more'>更多</navigator>
   </view>
   <scroll-view class="swiper-wrap" scroll-x>
        <view class="m-wrap" wx:for="{{koubeiMoives}}">

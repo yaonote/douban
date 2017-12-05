@@ -8,14 +8,14 @@
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#FD915A",
+    "navigationBarBackgroundColor": "#30A080",
     "navigationBarTitleText": "豆瓣电影",
     "navigationBarTextStyle":"white"
   },   
   "tabBar":{
     "color": "#f4f4f4",
     "selectedColor" : "#fff",
-    "backgroundColor": "#FD915A",
+    "backgroundColor": "#30A080",
     "borderStyle":"white",
     "position":"bottom",
     "list":[     
