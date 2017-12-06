@@ -1,0 +1,36 @@
+.userinfo{
+    height:  400rpx;
+    width: 100%;
+    background-color: #eee;
+    text-align: center;
+}
+.userinfo-avatar{
+      height:  200rpx;
+      width:  200rpx;
+      border-radius: 50%;
+      margin-top: 100rpx;
+}
+.userinfo-nickname{
+  margin-top: 16rpx;
+  display: block;
+  color: #666;
+}
+
+.wisdom-wrap{
+   margin-top:  100rpx;
+  
+}
+.wisdom-w{
+     width: 80%;
+    
+     font-size:  32rpx;
+     margin:  0 auto;
+     display: block;
+
+}
+.wisdom-t{
+    text-align: right;
+    margin-right: 180rpx;
+   
+      font-size:  30rpx;
+}

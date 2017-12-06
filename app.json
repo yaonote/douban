@@ -22,20 +22,20 @@
       {
         "pagePath": "pages/index/index",
         "text": "首页",
-        "iconPath":"images/h1.png",
-        "selectedIconPath": "images/h.png"
+        "iconPath":"images/movie.png",
+        "selectedIconPath": "images/movie_s.png"
       },
       {
          "pagePath":"pages/search/search",
          "text": "搜索页面",
-         "iconPath":"images/s.png",
-         "selectedIconpath":"images/s1.png"
+         "iconPath":"images/search.png",
+         "selectedIconPath":"images/search_s.png"
       },
       {
         "pagePath":"pages/user/user",
         "text":"我的页面",
-        "iconPath":"images/x.png",
-        "selectedIconpath":"images/x1.png"
+        "iconPath":"images/user.png",
+        "selectedIconPath":"images/user_s.png"
       }
     ]
   }
