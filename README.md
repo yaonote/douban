@@ -17,5 +17,5 @@
 ###### 项目截图
     ![image](https://github.com/yaonote/douban/images/index.png)
     ![image](https://github.com/yaonote/douban/images/search_loading.png)
-    ![image](https://github.com/yaonote/douban/images/search.png)
-    ![image](https://github.com/yaonote/douban/images/user.png)
+    ![image](https://github.com/yaonote/douban/images/search_img.png)
+    ![image](https://github.com/yaonote/douban/images/user_img.png)
